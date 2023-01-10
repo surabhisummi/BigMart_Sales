@@ -9,7 +9,7 @@ Hence, I have used multi-level analysis for this project.
 # Regression Models:
 Since my data is multi-level, so I have used OLS model to compare against fixed and random effects models, but my interpretation will be based on fixed or random effects models only. As an alternative, I also ran multiple FE and RE models with interaction effects!
 
-# Model Performance:
+ Model Performance:
 
 =====================================================================================================
                                               Dependent variable: log(Item_Sales)              
