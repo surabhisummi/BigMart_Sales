@@ -1,15 +1,15 @@
 # BigMart_Sales
 It's sales data project on different items at multiple outlets of a major retail chain. It's a multi-level data project.
 
-# Multi-level Dataset
+## Multi-level Dataset
 Level 1: Items (Item_ID, Item_MRP, Item_Desc), and 
 Level 2: Outlets (Outlet_ID, Outlet_Type).
 Hence, I have used multi-level analysis for this project. 
 
-# Regression Models:
+## Regression Models:
 Since my data is multi-level, so I have used OLS model to compare against fixed and random effects models, but my interpretation will be based on fixed or random effects models only. As an alternative, I also ran multiple FE and RE models with interaction effects!
 
- Model Performance:
+## Model Performance:
 
 =====================================================================================================
                                               Dependent variable: log(Item_Sales)              
