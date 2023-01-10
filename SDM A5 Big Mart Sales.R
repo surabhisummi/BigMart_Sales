@@ -1,11 +1,10 @@
-#' Assignment A6: Mixed-level models
 #' Data: BigMartSales.xlsx
 #' Multi-level data: Upper level: Outlets (Outlet_ID, Outlet_Type) 
 #'                   Lower level: Items (Item_ID, Item_MRP, Item_Desc)
 
 # Read & preprocess data
 
-setwd("E:/2Sem_Spring22/SDM/week5/assign5/SolByProf")
+setwd("E:/2Sem_Spring22/BigMart")
 #setwd("/Users/ab/Desktop/SDM/Data")
 library("readxl")
 d <- read_excel("BigMartSales.xlsx", sheet="Data")
